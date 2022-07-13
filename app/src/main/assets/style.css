@@ -1,0 +1,195 @@
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#head_section {
+  padding: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url("bg_top.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+
+  width: 100%;
+  /* background-color: brown; */
+}
+
+#head_section img {
+  min-width: 20%;
+  width: 15%;
+
+  /*border-radius: 50%;*/
+}
+
+.head_nama {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+#profile {
+  /* text-align: center; */
+}
+
+.image-jasa-size {
+  /* width: 100px; */
+}
+
+
+
+#jasa {
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  /* background-image: url("bg_2.jpg"); */
+  background-color: #1c0d03;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+
+  width: 100%;
+  /* background-color: brown; */
+}
+
+
+
+#jasa img {
+  width: 200px;
+}
+
+
+#jasa h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.centered_text {
+  /* text-align: center; */
+}
+
+#main_body {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#main_body h2{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: wheat;
+  
+  text-decoration: underline;
+  /* font-size: 50px; */
+}
+
+#main_body .welcome {
+  color: #d45c12;
+}
+
+#main_body h3{
+  margin-top: 40px;
+  color: wheat;
+  font-style: italic;
+
+  
+}
+
+#main_body img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#profile {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+#kontak {
+  /* min-width: 40%; */
+  margin-bottom: 50px;
+}
+
+#footer_section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: white;
+  color:#1c0d03; ;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#text-bg-brown {
+  background-color: #4D2105;
+  color: white;
+}
+
+#inner_container {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+
+/* Ipad / Tablet Mode */
+
+@media only screen and (max-width: 500px) {
+  /* For tablets: */
+  /* #jasa {display: none;} */
+
+  #jasa_2 .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #481E03;
+  }
+  #jasa_2 h3 {
+    font-size: 15px;
+  }
+  #jasa_2 img {
+    width: 50%;
+  }
+  #profile {
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+  #kontak_container {
+    max-width: 95%;
+    min-width: 90%;
+  }
+
+  #head_section img {
+    min-width: 40%;
+  }
+
+}
+
+@media only screen and (min-width: 501px) {
+  /* #jasa_2 {display: none;} */
+  #kontak_container {
+    max-width: 60%;
+    min-width: 70%;
+  }
+  
+
+}
+
+/* Desktop Mode */
+
+/* @media only screen and (min-width: 501px) {
+  #jasa_2 {display: none;}
+  
+
+} */
